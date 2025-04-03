@@ -50,7 +50,7 @@ text-align: right;
 }
 
 #redes-sociais img:hover {
-    content:url(/imagens/check.jpg);
+    content:url(../imagens/check.jpg);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
     transition: transform .5s;
