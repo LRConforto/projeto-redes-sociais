@@ -11,6 +11,13 @@ html, body {
     width: 100vw;
 }
 
+body { 
+    background-image:url(../imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom, left;    
+}
+
 #telefone {
     position:absolute;
     top: 50%;
@@ -21,9 +28,30 @@ html, body {
     width: 311px;
 }
 
-body { 
-    background-image:url(../imagens/fundo-madeira.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom, left;    
+#tela{ 
+    position: absolute;
+    top:79px;
+    left:21px;
+    width: 270px;
+    height: 474px;
+}
+
+#redes-sociais { 
+text-align: right;
+
+}
+
+#redes-sociais img {
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover {
+    content:url(/imagens/check.jpg);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
+    transition: transform .5s;
 }
